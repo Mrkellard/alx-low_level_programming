@@ -4,9 +4,9 @@
 /* more headers goes there */
 
 /**
- * Main - Entry
- * Description: Prints output
- * Returns 0
+ * main - Entry point
+ * Description: prints output
+ * Return: 0
  */
 int main(void)
 {
