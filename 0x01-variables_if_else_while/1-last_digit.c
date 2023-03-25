@@ -1,10 +1,10 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+#include<stdlib.h>
+#include<time.h>
+#include<stdio.h>
 
 /**
  * main - entry point
- * Description: print the last digit of a  number stored in a variable n
+ * Description: print the last digit of a number stored in a variable n
  * Return: 0
  */
 
