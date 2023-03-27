@@ -15,7 +15,7 @@ int main(void)
 		for (j = i + 1; j <= 9; j++)
 		{
 			printf("%d%d", i, j);
-			if (i < 9 || j < 9)
+			if (i < 8 || j < 9)
 			{
 				printf(", ");
 			}
