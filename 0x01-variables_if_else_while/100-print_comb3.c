@@ -5,28 +5,23 @@
  * description: prints all possible different combinationvof two digits
  *
  * Return: Always 0 (success)
- *
  */
 int main(void)
 {
-	int dig1, dig2;
+	int i, j;
 
-	for (dig1 = 0; dig1 < 10; dig1++)
+	for (i = 0; i <= 9; i++)
 	{
-		for (dig2 = 0; dig2 < 10; dig2++)
+		for (j = i + 1; j <= 9; j++)
 		{
-			putchar((dig1 % 10) + '0');
-			putchar((dig2 % 10) + '0');
-
-			if (dig1 == 9 && dig2 == 9)
-				continue;
-
-			putchar(',');
-			putchar(' ');
+			printf("%d%d", i, j);
+			if (i < 9 || j < 9)
+			{
+				printf(", ");
+			}
 		}
 	}
-
-	putchar('\n');
-
+	printf("\n");
 	return (0);
 }
+
