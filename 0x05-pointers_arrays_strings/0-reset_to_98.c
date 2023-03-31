@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * reset_to_98 - Reset a given integer variable to the value 98.
  *
