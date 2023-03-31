@@ -15,17 +15,3 @@ void reset_to_98(int *n)
 
 }
 
-int main(void)
-{
-	int num = 5;
-	int *ptr = &num;
-	
-	
-	reset_to_98(ptr);
-
-	// num is now 98
-	
-	return (0);
-
-}
-
