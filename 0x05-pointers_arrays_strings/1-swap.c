@@ -1,9 +1,9 @@
 /**
- * swap - Swaps the values of two integers
+ * swap_int - Swaps the values of two integers
  * @a: Pointer to the first integer
  * @b: Pointer to the second integer.
  *
- * Description: the function that swaps the values of two integers.
+ * Description: This function swaps the values of two integers.
  *
  * Return: nothing
  */
